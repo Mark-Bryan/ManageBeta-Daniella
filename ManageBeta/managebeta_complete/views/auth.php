@@ -99,7 +99,7 @@
     </main>
 
     <footer class="footer">
-      <p>ManageBeta &copy; 2026 &mdash; Built with love, by Noela.</p>
+      <p>ManageBeta &copy; 2026 &mdash; Built with love, by Daniella.</p>
     </footer>
 
     <script src="/public/js/auth.js"></script>

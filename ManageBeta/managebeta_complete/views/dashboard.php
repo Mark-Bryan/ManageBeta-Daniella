@@ -139,7 +139,7 @@
     <div class="toast-container" id="toastContainer"></div>
 
     <footer class="footer">
-      <p>ManageBeta &copy; 2026 &mdash; Built with love, by Noela.</p>
+      <p>ManageBeta &copy; 2026 &mdash; Built with love, by Daniella.</p>
     </footer>
 
     <!-- Alarm sound played when a task deadline is reached -->

@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-:root {
+/* :root {
   --bg-primary: #0f0a0e;
   --bg-secondary: #1e1218;
   --bg-card: #1c1118;
@@ -16,6 +16,7 @@
   --accent-secondary: #d4547a;
   --accent-hover: #f0849e;
   --accent-glow: rgba(232, 101, 138, 0.35);
+  --accent-lavender: #b497ff;
   --text-primary: #fffffe;
   --text-secondary: #c4a8b0;
   --text-muted: #8a7078;
@@ -31,7 +32,42 @@
   --shadow-glow: 0 0 20px var(--accent-glow);
   --transition: 0.25s ease;
   --font-main: "Segoe UI", Inter, system-ui, -apple-system, sans-serif;
+} */
+
+:root {
+  --bg-primary: #140f1c;
+  --bg-secondary: #1d1528;
+  --bg-card: #1a1324;
+  --bg-input: #1d1528;
+  --bg-nav: rgba(20, 15, 28, 0.93);
+
+  --accent-primary: #b497ff;      /* Lavender */
+  --accent-secondary: #d3b4ff;    /* Soft Lilac */
+  --accent-hover: #c9aaff;        /* Light Lavender */
+  --accent-glow: rgba(180, 151, 255, 0.35);
+
+  --text-primary: #ffffff;
+  --text-secondary: #d8c9f0;
+  --text-muted: #9d8ab8;
+
+  --border-color: #2e2140;
+
+  --success: #7ee8c3;             /* Soft Mint */
+  --warning: #f3d9a1;             /* Soft Gold */
+  --danger: #ff7aa5;              /* Rose Pink */
+  --danger-hover: #ff97b9;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 20px var(--accent-glow);
+
+  --transition: 0.25s ease;
+  --font-main: "Segoe UI", Inter, system-ui, -apple-system, sans-serif;
 }
+
 
 html {
   scroll-behavior: smooth;
